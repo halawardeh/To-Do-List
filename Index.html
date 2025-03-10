@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <title>TO Do List</title>
+</head>
+
+<body>
+
+    <h1>Tasks Tracker</h1>
+    <h4>Stay organized with tasks, your way.</h4>
+
+    <table id="TasksTable">
+        <thead>
+            <tr>
+                <th>Task name</th>
+                <th>Status</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="TableBody">
+            <tr>
+                <td colspan="5"><button type="button" id="AddTaskBtn" onclick="AddTaskRow()">+ Add new Task</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+<script src="Index.js"></script>
+</body>
+
+</html>
